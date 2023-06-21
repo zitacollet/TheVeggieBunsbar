@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+body {
+    background-color: #fff0d8;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff0d8;
+    padding: 1rem;
+}
+
+.logo img {
+    width: 65%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: "brevia", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.green {
+    color: #f5a38a;
+}
+
+.orange {
+    color: #83ac76;
+}
+
+.splashscreen {
+    height: 100vh;
+    background-image: url(background-image.jpg);
+    background-position: center;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+
+.columnA {
+  flex: 1;
+  padding: 10px;
+  margin-top: 14%;
+  margin-left: 10%;
+  align-self: left;
+}
+.cta-button {
+  display: inline-block;
+  justify-content: center;
+  padding: 10px 20px;
+  margin-top: 5%;
+  margin-left: 42%;
+  border-radius: 20px;
+  background-color: #83ac76;
+  color: white;
+  text-decoration: none;
+  font-family: 'Brevia Black', sans-serif;
+  font-size: 1em;
+
+}
+
+.cta-button:hover {
+  background-color: #F4A38B;
+  color: #FFFFFF;
+}
+
+
+h2 {
+  font-family: 'Brevia', sans-serif;
+  font-size: 1.75em;
+  color: #683914;
+  text-align: center;
+}
+
+.Title1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+
+h1 {
+    font-family: 'Brevia', sans-serif;
+    font-size: 3.5em;
+    color: #683914;
+}
+
+.columnB {
+  width: 40%;
+  height: auto;
+  margin-top: 5%;
+  margin-right: 10%;
+  align-self: right;
+
+}
+
+
+.wiewijzijn {
+    display: flex;
+    justify-content: center;
+}
+
+.alinea1 {
+    display: flex;
+    justify-content: safe left;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 15%;
+    max-width:77% ;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.wiewijzijn2 {
+    display: flex;
+    justify-content: center;
+}
+
+.alinea2 {
+    display: flex;
+    justify-content: safe right;
+    text-align: left;
+    margin-top: 15%;
+    margin-right: 5%;
+}
+
+
+p {
+    font-family: 'Brevia', sans-serif;
+    font-size: 1.25em;
+    color: #683914;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+
+}
+
+.steamer {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-image: url(patroon.png);
+    border-radius: 4px;
+    font-family: 'Brevia';
+    color: #683914;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label.required::after {
+    content: " *";
+    color: #da8a71;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+small {
+    font-family: 'Brevia';
+    font-size: 12px;
+    color: #da8a71;
+}
+
+input[type="submit"] {
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Brevia';
+    color: #683914;
+}
+
+input[type="submit"]:hover {
+    background-color: #a1d1c3;
+}
+
+input[type="tel"]:invalid {
+    border-color: #da8a71;
+}
+
+input[type="tel"]:valid {
+    border-color: #a1d1c3;
+}
+
+.bunsgallery{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 50px, 8%;
+
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img{
+    width: 100%;    
+}
+
+.contact{
+    margin-bottom: 10%;
+}
+
+footer{
+    color: #fff0d8;
+    background-color: #683914;
+    padding: 5%;
+    font-family: 'Brevia', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer img{
+    width: 7%;
+    height: auto;
+    }
